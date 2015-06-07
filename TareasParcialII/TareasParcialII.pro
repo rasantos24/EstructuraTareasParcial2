@@ -15,13 +15,11 @@ TEMPLATE = app
 SOURCES += main.cpp\
         tareasparcialii.cpp \
     tarea1.cpp \
-    cola.cpp \
     nodo.cpp \
     tarea2.cpp
 
 HEADERS  += tareasparcialii.h \
     tarea1.h \
-    cola.h \
     nodo.h \
     tarea2.h
 
