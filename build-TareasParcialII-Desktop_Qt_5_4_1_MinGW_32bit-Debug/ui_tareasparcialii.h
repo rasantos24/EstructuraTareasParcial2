@@ -31,6 +31,7 @@ public:
     QLabel *label;
     QPushButton *pushButton;
     QLabel *label_2;
+    QPushButton *pushButton_2;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -39,22 +40,25 @@ public:
     {
         if (TareasParcialII->objectName().isEmpty())
             TareasParcialII->setObjectName(QStringLiteral("TareasParcialII"));
-        TareasParcialII->resize(547, 405);
+        TareasParcialII->resize(278, 242);
         centralWidget = new QWidget(TareasParcialII);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         label = new QLabel(centralWidget);
         label->setObjectName(QStringLiteral("label"));
-        label->setGeometry(QRect(160, 10, 211, 16));
+        label->setGeometry(QRect(20, 10, 211, 16));
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QStringLiteral("pushButton"));
-        pushButton->setGeometry(QRect(50, 70, 75, 23));
+        pushButton->setGeometry(QRect(90, 70, 75, 23));
         label_2 = new QLabel(centralWidget);
         label_2->setObjectName(QStringLiteral("label_2"));
-        label_2->setGeometry(QRect(60, 50, 51, 16));
+        label_2->setGeometry(QRect(100, 50, 51, 16));
+        pushButton_2 = new QPushButton(centralWidget);
+        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
+        pushButton_2->setGeometry(QRect(90, 100, 75, 23));
         TareasParcialII->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(TareasParcialII);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 547, 21));
+        menuBar->setGeometry(QRect(0, 0, 278, 21));
         TareasParcialII->setMenuBar(menuBar);
         mainToolBar = new QToolBar(TareasParcialII);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
@@ -74,6 +78,7 @@ public:
         label->setText(QApplication::translate("TareasParcialII", "Tareas Segundo Parcial Estructura de Datos", 0));
         pushButton->setText(QApplication::translate("TareasParcialII", "Tarea 1", 0));
         label_2->setText(QApplication::translate("TareasParcialII", "Semana 7", 0));
+        pushButton_2->setText(QApplication::translate("TareasParcialII", "Tarea 2", 0));
     } // retranslateUi
 
 };

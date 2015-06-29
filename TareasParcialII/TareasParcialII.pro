@@ -16,12 +16,14 @@ SOURCES += main.cpp\
         tareasparcialii.cpp \
     tarea1.cpp \
     nodo.cpp \
-    tarea2.cpp
+    tarea2.cpp \
+    nodosnarios.cpp
 
 HEADERS  += tareasparcialii.h \
     tarea1.h \
     nodo.h \
-    tarea2.h
+    tarea2.h \
+    nodosnarios.h
 
 FORMS    += tareasparcialii.ui \
     tarea1.ui \
